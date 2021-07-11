@@ -17,6 +17,7 @@ import org.ksoap2.serialization.SoapObject;
 import org.ksoap2.serialization.SoapSerializationEnvelope;
 import org.ksoap2.transport.HttpTransportSE;
 
+//my web service
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button querybutton,insertbutton,updatebutton,deletebutton;
     private static final String nameSpace = "https://www.hansoft.com.au/querydata";
